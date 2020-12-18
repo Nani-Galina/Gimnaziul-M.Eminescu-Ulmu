@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Gimnaziul "M.Eminescu"</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <link rel="icon" type="image/png" href="imagini/scoala 1.png"/>
+    </head>
+
+    <body>
+        <header class="headr">
+            <img class="header-logo" src="imagini/Eminescu img.jpg" alt="Logoul siteului"/>
+            
+            <div id="navbar" class="nav">
+                <a href="index.html" class="active"> Acasă </a>
+                <a href="pagini/Despre noi.html"> Despre noi </a>
+                <a href="pagini/Noutăți.html"> Noutăți </a>
+                <a href="pagini/Activitate.html"> Activitate </a>
+                <a href="pagini/Contacte.html"> Contacte </a>
+              
+                <a class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars"></i></a>
+
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="centered footer-info">
+                <span id="data"> </span>
+                <script src="js/main.js"> </script>
+                <span> 
+                    <script type="text/javascript">
+                    var todayDate = new Date();
+                    var currYear = todayDate.getFullYear();
+                    var currMonth = todayDate.getMonth()+1;
+                    var currDay = todayDate.getDate();
+                    document.write("Astăzi: ");
+                    document.write(currDay + "-" + currMonth + "-" + currYear);
+                    </script>
+                </span>
+            </div>
+            <h1 class="centered"> “Copilului nu aur, nu mătase, ci iubire îi trebuie.” <br>M. Eminescu</h1>
+
+ 
+            <div class="slideshow-container">
+                
+                <div class="slide">
+                    <img src="imagini/start foto 1.jpg">
+                </div>
+
+                <div class="slide">
+                    <img src="imagini/slide 2.jpg">
+                </div>
+
+                <div class="slide">
+                    <img src="imagini/slide 3.jpg">
+                </div>
+
+                <div class="slide">
+                    <img src="imagini/slide 4.jpg">
+                </div>
+
+                <div class="slide">
+                    <img src="imagini/slide 5.jpg">
+
+                </div>
+
+                <div class="slide">
+                    <img src="imagini/slide 6.jpg">
+
+                </div>
+
+               
+            </div>
+                    
+
+            
+            <hr/>
+            <div class="centered">
+                <p>
+                    Gimnaziul Ulmu își propune să promoveze un învâțâmânt incluziv, deschis și flexibil copilului:<br><br>
+                    - să ofere tuturor copiilor din comunitate șanse egale de dezvoltare personală;<br>
+                    - să creeze un mediu favorabil desfășurrii procesului educațional, astfel încât toți elevii să <br> dorească să fregventeze școala;<br>
+                    - să motiveze cadrele didactice pentru a pune in valoare calitățile personale ale fiecărui elev în parte;<br>
+                    - să relaționeze eficient cu părinții, în vederea asigurării și susținerii condițiilor de dezvoltare a fiecărui elev.
+                </p>
+
+            </div>
+
+            
+
+            <div class="container-partenerilocali">
+                <a href="https://www.facebook.com/raionulialoveni/?epa=SEARCH_BOX" target="_blank">
+                    <img class="img-partenerilocali img-border  " src="imagini/Consiliul r.jpg" alt="Consiliul raional Ialoveni"/>
+                </a>
+
+                <a href="">
+                    <img class="img-partenerilocali img-border " src="imagini/ulmu.jpg" alt="Primaria Ulmu"/>
+                </a>
+
+                <a href="https://www.facebook.com/gradinita.stejarel?epa=SEARCH_BOX" target="blank">
+                    <img class="img-partenerilocali img-border " src="imagini/gradinita.jpg" alt="Gradinita Stejarel"/>
+                </a>
+
+                <a href="https://www.facebook.com/Biserica-cu-hramul-Intrarea-Maicii-Domnului-in-Biserica-108592296334563/?epa=SEARCH_BOX" target="blank">
+                    <img class="img-partenerilocali img-border " src="imagini/biserica.jpg" alt="Biserica cu hramul Intrarea Maicii Domnului in Biserica"/>
+                </a>
+               
+            </div>
+
+        </div>
+        <script src="js/slider.js"></script>
+        
+        
+
+        <footer>
+            <div class="centered footer-info">
+                <span> Gimnaziul M.Eminescu </span>
+                <br>
+                   <span> 
+                    <script type="text/javascript">
+                    var todayDate = new Date();
+                    var currYear = todayDate.getFullYear();
+                    var currMonth = todayDate.getMonth()+1;
+                    var currDay = todayDate.getDate();
+                    document.write(" ");
+                    document.write(currDay + "-" + currMonth + "-" + currYear);
+                    </script>
+                </span>
+                <span>2020 </span>
+            </div>
+
+        </footer>
+
+
+    </body>
+
+</html>

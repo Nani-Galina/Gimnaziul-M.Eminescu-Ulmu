@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    background-image: url( ../imagini/fundal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+   
+   
+}
+
+header{
+    background-color:#f6f8f7;
+    min-height: 70px;
+    border-bottom: 2px solid #bcf3e2;
+}
+
+header a{
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-size: 26px;
+    padding: 20px;
+}
+
+
+header a.active {
+    background-color: #bbdae4;
+
+}
+
+header a:hover {
+    background-color: #b8e0ee75;
+}
+
+
+
+footer{
+    min-height: 70px;
+    background-color:#f6f8f7;
+    border-top: 2px solid #bcf3e2;
+}
+
+h1,
+h2{
+    /* font-family: "Monotype Corsiva" ; */
+    text-shadow: 5px 3px 20px rgb(87, 83, 83);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: italic;
+    color: rgba(38, 80, 104, 0.932);
+}
+
+
+h3,
+h4
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+h5,
+h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style: normal;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 140%;
+    font-size: 20px;
+    font-style: italic;
+}
+
+hr {
+    border-top: 3px solid #1d8488;;
+}
+
+.container{
+    min-height: 95vh;
+    padding: 5px 10% 20px 15%;
+
+
+}
+.container-noutati{
+    min-height: 10vh;
+    padding: 20px 0% 5px 5%;
+   
+
+}
+
+.container-formular{
+    min-height: 10vh;
+    padding: 0px 30% 5px 5%;
+}
+
+.container-contacte{
+    min-height: 10vh;
+    /* padding: 5px 15% 10px 15%; */
+    background-color:#bbdae4 ;
+    padding: 0px;
+    border: 2px solid gray ;
+}
+
+.container-video{
+    min-height: 10vh;
+    padding: 20px 0% 5px 5%;
+   
+}
+
+.container-lincuri{
+    background-color:#bbdae4 ;
+    padding: 0px;
+
+}
+
+
+
+.header-logo{
+    float: left;
+    height: 60px;
+    margin: 6px 20px 10px 55px;
+}
+
+.centered {
+    text-align: center;
+}
+.text-istoric{
+    text-align: left;
+    font-size: 30px ;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-weight: bold;
+    color: rgb(46, 87, 74);
+}
+
+.footer-info {
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    font-style: italic ;
+    color: rgba(8, 64, 66, 0.863);
+}
+
+.img-start {
+    max-height: 400px;
+    border: 4px solid #1d8488;
+    box-shadow: 6px 6px 8px grey;
+}
+
+.container-partenerilocali{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img-partenerilocali{
+    margin-top: 5px ;
+    max-height: 160px;
+    transition: all linear 1s;
+    border-radius: 50%;
+}
+
+.img-border{
+    border: 4px dashed #59cfd38c
+    
+}
+
+.img-bordernoutati{
+    border: 3px dotted rgb(124, 197, 226);
+   
+
+}
+
+.img-partenerilocali:hover{
+    transform: scale(1.1) ;
+    transition: all linear 1.5s ;
+}
+
+.col-1 {width: 35%;}
+.col-2 {width: 65%;}
+
+.col-noutati-1 { width: 15%;}
+.col-noutati-2 { width: 85%;}
+
+.col-noutati-1 a{
+    text-decoration: none ;
+
+}
+
+.col-activitati-1 { width: 50;}
+.col-activitati-2 { width: 50;}
+
+
+[class*="col-"]{
+    float: right;
+}
+
+
+.row  {
+    overflow: hidden;
+}
+
+.margine-interioara {
+    padding: 3%;
+}
+
+.harta{
+    margin-top: 40px ;
+}
+
+
+.hamburger-menu{
+    display: none;
+    float: right;
+}
+
+.container-iframe{
+    margin: auto;
+    padding: 10px;
+}
+
+.slideshow-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+.slide{
+    display: none;
+}
+
+
+.slide img{
+    max-width: 100%;
+    max-height: 300px;
+    border: 3px solid #1d8488;
+    box-shadow: 6px 6px 10px #000000;
+
+}
+
+
+@media (max-width: 770px){
+
+    .container{
+        padding: 5px 5% 20px 5%;
+    }
+
+    [class*="col-"]{
+        width: 100%;
+    }
+
+
+
+    .nav a{
+        display: none;
+    }
+
+    a.hamburger-menu {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav.mobile a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    @-webkit-keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      } 
+}
